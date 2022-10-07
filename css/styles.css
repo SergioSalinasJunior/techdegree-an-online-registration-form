@@ -150,3 +150,33 @@ button {
     text-align: center;
     padding-bottom: 2rem;
   }
+
+  /*************
+MEDIA QUERIES
+*************/
+
+/*** TABLET STYLES ***/
+@media (min-width: 768px) {
+    header section, form {
+        width: 50%;
+    }
+
+    header section {
+        padding: 1.2rem 0;
+    }
+
+    .flex label {
+        width: 25%;
+    }
+
+    input, select {
+        width: 75%;
+        margin: 0.5rem 0;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
